@@ -1,0 +1,54 @@
+
+header {background-color:rgb(203, 240, 247);
+    background-repeat: no-repeat;
+    background-size: 120px 160px;
+    background-position: center;
+}
+
+#foto { width: 120px; height: 160px;
+    display:block ;
+    margin: auto ;
+    align-items: center;
+}
+
+h1 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color:darkblue ;
+    background-color: darkgrey;
+}
+
+#margen {margin: 150px;
+}
+
+h2 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    color:darkblue ;
+    background-color: darkgrey;
+}
+
+h4 {font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.tabla {border="0";
+    margin: 5px 40px;
+}
+
+span.resaltar {font-weight: bold;
+                font-style: italic;
+}
+
+span.elevar {font-weight: bold;     
+}
+
+footer{background-color: rgb(67, 67, 214);
+}
+
+.icono { display:inline-block;
+        margin: auto;
+        width: 40px; height: 40px;
+        vertical-align: middle;
+}
+
