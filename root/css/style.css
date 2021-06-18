@@ -62,7 +62,7 @@ main { background-color: lightblue;
 
 }
 
-li { 
+li#aux { 
     display: inline;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:rgb(232, 248, 250);
