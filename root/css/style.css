@@ -62,12 +62,6 @@ main { background-color: lightblue;
 
 }
 
-li#aux { 
-    display: inline;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color:rgb(232, 248, 250);
-}
-
 img { height: 200px; width: 270px;
     margin: 10px 80px;
     display: inline-block;
