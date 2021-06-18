@@ -52,3 +52,31 @@ footer{background-color: rgb(67, 67, 214);
         vertical-align: middle;
 }
 
+main { background-color: lightblue;
+    background-image: url('../img/FOTO2.jpeg');
+    background-size: 300px;
+    background-position:top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+
+}
+
+li { 
+    display: inline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(232, 248, 250);
+}
+
+img { height: 200px; width: 270px;
+    margin: 10px 80px;
+    display: inline-block;
+}
+
+.volver {font-family: sans-serif;
+    color: rgb(67, 67, 214);
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+}
