@@ -1,0 +1,88 @@
+#descuentos { background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+    padding: 0px;
+    margin: 0px;
+    }
+
+h3#cabeza { position: relative;
+            top: 8px;
+            padding: 0px;
+            margin: 0px;
+}
+
+#heroes { background-color: #00669F ;
+    width: 100%;
+    height: 101px;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    }
+
+h1 { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    position: relative;
+    top: 30px;
+    left: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+section { position: absolute;
+        top: 290px;
+        left: 32px;
+        width: 960px;
+        height: 532px;
+        }
+
+.card { height: 530px; width: 300px;
+        position: relative;
+        background-color: #F3F3F3 ;
+        display: inline-block;
+  }
+
+.fondoCard { height: 194px; width: 300px;
+}
+
+.bodyCard {height: 336px;
+        position: absolute;
+        top: 196px;
+        right: 0px;
+}
+
+.fotoHeroe { width: 120px; height: 120px;
+        position: absolute;
+        right: 90px;
+        top: 134px;
+}
+
+.corazon { width: 30px; height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10px;
+}
+
+.nombre { position: relative;
+    left: 87px;
+    top: 50px;
+}
+
+p { position: relative;
+    top: 50px;
+    left: 10px;
+    margin: 10px;
+}
+
+button { position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+footer {position: absolute;
+    top: 1024px;
+    left: 0px;
+    width: 100%;
+    height: 51px;
+    background-color: #00669F
+
+}
