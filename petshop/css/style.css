@@ -72,7 +72,7 @@ justify-content: flex-end; align-items: center;}
 
 #izquierda {display: flex; justify-content: space-around;
     align-items: center;}
-input {height: 1.2rem; width: 60%;}
+#suscribir input {height: 1rem; width: 60%;}
 #suscribir button {height: 1.6rem;}
 
 footer {background-color: #6fd59a; display: flex;
@@ -98,7 +98,8 @@ footer img {width: 50%;}
 #listaNav li { margin: 5px 40px; color: white;
     display: inline; margin: 0.2rem; font-size: 0.7rem;}
 
-input, label {display: none;}
+.barraNav input, label {display: none;}
+
 
 
 @media only screen and (max-width : 480px) {
