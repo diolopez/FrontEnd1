@@ -1,0 +1,145 @@
+
+header { background-color: black;
+    display: flex; align-items: center;
+    justify-content: space-between;}
+
+header section { display: flex;
+    justify-content: space-between;
+    color: cornsilk;
+    width: 10rem;
+    margin: 1rem;}
+
+header nav {font-size: 00.8rem;}
+h3#subPpal { font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    margin: 0rem;
+    color: blanchedalmond;
+}
+section#imagen { background-image: url(../img/plato.png);
+    height: 14rem;
+    width: 100%;
+    background-size: 100%; background-repeat: no-repeat;
+    display: flex; flex-direction: row;
+    justify-content: end;
+    }
+
+#algo {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+h2 { margin: 0.2rem; color: tomato;
+    font-size: 1rem;
+    background-color: white;
+    z-index: 10;}
+    
+p.centro{ margin: 0.2rem; font-size: 0.8rem;}
+
+button#inicial {height:2em; width:7em; margin: 0.3em;
+    background-color: steelblue; color: white;}
+
+#secprod {display: flex; flex-direction: column;
+    justify-content: space-around;
+    align-items: center;}
+
+#listaprod {display: flex; padding: 0rem;margin: 0.2rem;}
+h1 {padding: 0.1rem; margin: 0.1rem;} 
+#listaprod li {display: inline; padding: 0.4rem;}
+
+#secImgProd {display: flex; flex-direction: row; 
+width: 100%; height: auto; margin: 2rem 0rem;
+justify-content: space-around;}
+
+#imgtarj {width: 100%;}
+
+article h3 {font-size: 0.7rem;}
+
+article p {font-size: 0.7rem;}
+
+.tarjeta {display: flex; flex-direction: column;
+background-color: #FBFAF6;
+width: 30%;
+justify-content: flex-end; align-items: center;}
+
+#suscribir { display: flex; justify-content: space-between;
+    background-color: #F0A83E;
+    width: 100%; height: auto;}
+
+#derecha {display: flex; justify-content: center;
+    align-items: center;}
+#suscribir p {font-size: 0.8rem; color: white;}
+#suscribir i {color: white; size: 3rem; margin: 0 0.6rem;}
+
+#izquierda {display: flex; justify-content: space-around;
+    align-items: center;}
+input {height: 1.2rem; width: 60%;}
+#suscribir button {height: 1.6rem;}
+
+footer {background-color: #6fd59a; display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+#secder {display: flex; flex-direction: column;}
+.iconfooter {display: flex; justify-content:flex-start;
+    align-items: center;}
+footer i {color: white; margin: 0rem 1rem 0rem;}
+footer p {color: white;}
+
+#secizq {display: flex; justify-content: center;}
+footer img {width: 50%;}
+
+
+.barraNav { background-color: orange; display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.barraNav img{width: 10rem; height: 2rem;}
+
+#listaNav li { margin: 5px 40px; color: white;
+    display: inline; margin: 0.2rem; font-size: 0.7rem;}
+
+input, label {display: none;}
+
+
+@media only screen and (max-width : 480px) {
+    header, header section {display: none;}
+    h2 { font-size: 1rem;}
+    section#imagen { justify-content: start; height: 10rem;}
+    
+
+    nav ul {display: none;}
+    nav input:checked ~ ul{ display: block; width: 5rem;}
+    label {display: block; margin: 0rem 1rem;
+        position: fixed; right: 1rem; top: 0.7rem}
+
+    #algo {justify-content: flex-start;
+        align-items: flex-end;
+        margin: 1rem;}
+    
+    h2 { margin: 0.1rem;
+        font-size: 1rem;
+        background-color: white;
+        z-index: 10;}
+
+    #secImgProd {flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;}
+                      
+    article h3, article p {font-size: 1rem;}
+                       
+    .tarjeta {display: flex; flex-direction: column;
+    background-color: #FBFAF6;
+    width: 80%; margin: 1rem;
+    justify-content: flex-end; align-items: center;}
+
+    #suscribir { display: flex; flex-direction: column;
+        justify-content: start; height: 5rem;}
+
+    footer { flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+        
+}
+
+
+
