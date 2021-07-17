@@ -1,46 +1,48 @@
-#descuentos { background-color: #1CD1B0;
+header h3 { background-color: #1CD1B0;
     width: 100%;
-    height: 38px;
-    padding: 0px;
-    margin: 0px;
+    height: 2rem;
+    padding: 0rem;
+    margin: 0rem;
     }
-
-h3#cabeza { position: relative;
-            top: 8px;
-            padding: 0px;
-            margin: 0px;
-}
 
 #heroes { background-color: #00669F ;
+    display: flex;
+    align-content: center;
     width: 100%;
-    height: 101px;
-    padding: 0px;
-    margin: 0px;
+    height: 6rem;
+    padding: 0rem;
+    margin: 0rem;
     position: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
-h1 { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    position: relative;
-    top: 30px;
-    left: 30px;
-    padding: 0px;
-    margin: 0px;
-}
-
-section { position: absolute;
-        top: 290px;
-        left: 32px;
-        width: 960px;
-        height: 532px;
+section { display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
         }
 
-.card { height: 530px; width: 300px;
+@media only screen and (min-width : 600px) {
+section { flex-direction: row;
+            justify-content: space-around;
+            margin: 0.5rem;
+        }
+
+.card { height: auto; width: 30%;
+        background-color: #af9b9b ;
+        display: inline-block;
+        margin: 1rem;
+      }
+}    
+
+.card { height: auto; width: 30%;
+        background-color: burlywood;
         position: relative;
-        background-color: #F3F3F3 ;
         display: inline-block;
   }
 
-.fondoCard { height: 194px; width: 300px;
+.fondoCard { height: 12rem; width: 100%;
 }
 
 .bodyCard {height: 336px;
@@ -49,7 +51,7 @@ section { position: absolute;
         right: 0px;
 }
 
-.fotoHeroe { width: 120px; height: 120px;
+.fotoHeroe { width: 50%; height: auto;
         position: absolute;
         right: 90px;
         top: 134px;
